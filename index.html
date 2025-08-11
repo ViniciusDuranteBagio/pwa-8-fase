@@ -3,16 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha PWA</title>
+  <title>PWA Super Ultra Mega Ultimate Secreta</title>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#317EFB" />
 </head>
-<body>
-  <h1>Minha Primeira PWA 🚀</h1>
-  <p>Funciona como um app!</p>
-  <img src="https://pt.wikipedia.org/wiki/Counter-Strike_2">
+<body style="content: center; text-align: center; background-color: black; color: white;">
+  <h1>Um Aplicativo secreto</h1>
+  <p>Apenas para pessoas autorizadas!</p>
+  <button id="botao" onclick="clica1()">Clica pra ver um segredo</button> <br> <br>
+  <img src="https://media.tenor.com/gyuqx70UjmEAAAAe/emoji-feliz-ficando-triste-emoticon-feliz-ficando-triste.png" />
 
   <script>
+    function clica1(){
+      const botao = document.getElementById('botao');
+      botao.setAttribute("onclick", "click2()");
+      botao.innerHTML = "Tem certeza que quer ver o segredo?";
+    }
+    function click2(){
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js')
         .then(() => console.log('Service Worker registrado!'))
