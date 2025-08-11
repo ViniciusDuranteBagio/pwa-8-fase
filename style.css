@@ -1,0 +1,14 @@
+body {
+    background-attachment: fixed;
+    background-image: url('./Ceu-Azul.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: rgb(255, 0, 212);
+}
+
+p{
+    color: blueviolet;
+}
