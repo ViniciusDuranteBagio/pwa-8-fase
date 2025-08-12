@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha PWA</title>
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#317EFB" />
-</head>
-<body>
-  <h1>Minha Primeira PWA 🚀</h1>
-  <p>Funciona como um app!</p>
-  <img src="https://pt.wikipedia.org/wiki/Counter-Strike_2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha PWA</title>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#317EFB" />
+  </head>
+  <body>
+    <h1>Primeira PWA do Dany Pablo 🚀</h1>
+    <p>Funciona como um app!</p>
+    <img src="https://pt.wikipedia.org/wiki/Counter-Strike_2" />
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
-        .then(() => console.log('Service Worker registrado!'))
-        .catch(err => console.error('Falha no registro do SW:', err));
-    }
-  </script>
-</body>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/service-worker.js')
+          .then(() => console.log('Service Worker registrado!'))
+          .catch((err) => console.error('Falha no registro do SW:', err));
+      }
+    </script>
+  </body>
 </html>
