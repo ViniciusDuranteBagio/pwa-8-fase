@@ -7,7 +7,8 @@
   "background_color": "#AA7EFB",
   "theme_color": "#AA7EFB",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/CJ.ico", "type": "image/x-icon" },
+    { "src": "/CJ.ico", "sizes": "192x192", "type": "image/x-icon" },
+    { "src": "/CJ.ico", "sizes": "512x512", "type": "image/x-icon" }
   ]
 }
