@@ -6,7 +6,7 @@
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
   "icons": [
-    { "src": "/manual_do_imundo.jpeg", "sizes": "192x192", "type": "image/png" },
+    { "src": "/download(2).jpeg", "sizes": "192x192", "type": "image/png" },
     { "src": "/bazinga_512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
